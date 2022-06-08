@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+
+.nav{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background-color: #000A66;
+    mix-blend-mode: normal;
+}
+
+#logo {
+    /* IMG DA LOGO*/
+    height: 60px;
+}
+
+.logo{
+    float: left;
+    padding-left: 10rem;
+    display: flex;
+    align-items: center;
+    color: #BDB606;
+    font-family: 'Roboto';
+    text-decoration: none;
+    letter-spacing: 0.175em;
+}
+
+.icon{
+
+    display: flex;
+    align-items: center;
+    color: #BDB606;
+    font-family: 'Roboto';
+    text-decoration: none;
+    letter-spacing: 0.175em;
+
+
+}
+
+#icon{
+    height: 20px;
+    padding: 20px;
+}
+
+
+.links{
+    position: absolute;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-right: 10rem;
+    margin-left: 10px;
+}
+
+
+
