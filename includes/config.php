@@ -1,5 +1,7 @@
 <?php
 
+    session_start();
+
     $sname = "localhost";
     $unmae = "root";
     $password = "";
@@ -11,4 +13,6 @@
         echo "Falha na conexão";
     }
 
-    
+    define ('ROOT_PATH', realpath(dirname(__FILE__)));
+	define('BASE_URL', 'http://localhost/APITA/');
+   

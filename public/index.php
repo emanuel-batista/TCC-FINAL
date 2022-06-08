@@ -5,22 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AP!TA - O melhor PORTAL</title>
-    <link rel="stylesheet" href="../style/style.css">
+    <?php require_once '../includes/config.php'; ?>
+    <link rel="stylesheet" href="../static/style/style.css">
 </head>
 <body>
 
-    <div class="nav">
-        <a href="index.php" class='logo'><img src="../static/images/apita.svg" alt="LOGO DO SITE" id='logo'>AP!TA</a>
-        <div class="links">
-            <a href="#" class='icon'><img src="../static/images/HOME.svg" alt="HOME" id='icon'></a>
-            <a href="#" class='icon'><img src="../static/images/ENTREVISTAS.svg" alt="HOME" id='icon'></a>
-            <a href="#" class='icon'><img src="../static/images//NOTICIAS.svg" alt="HOME" id='icon'></a>
-            <a href="#" class='icon'><img src="../static/images/LOGIN.svg" alt="HOME" id='icon'></a>
-        </div>
-        
-    </div>
-    
-    
-    
+    <?php require_once(ROOT_PATH . '/navbar.php'); ?> 
+
+    <!-- incluir public_functions -->
+    <?php require_once(ROOT_PATH . '/public_functions.php') ?>
+    <?php $posts = getPublishedPosts(); ?>    
 </body>
 </html>
