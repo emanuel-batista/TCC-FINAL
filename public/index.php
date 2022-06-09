@@ -15,5 +15,7 @@
     <!-- incluir public_functions -->
     <?php require_once(ROOT_PATH . '/public_functions.php') ?>
     <?php $posts = getPublishedPosts(); ?>    
+
+    <!-- quero dar -->
 </body>
 </html>
