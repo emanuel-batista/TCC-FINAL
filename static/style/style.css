@@ -22,7 +22,7 @@
     padding-left: 10rem;
     display: flex;
     align-items: center;
-    color: #BDB606;
+    color: #FFE81D;
     font-family: 'Roboto';
     text-decoration: none;
     letter-spacing: 0.175em;
@@ -56,5 +56,19 @@
     margin-left: 10px;
 }
 
+.ccol-md-8 {
+    position: relative;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-right: 10rem;
+    margin-left: 10px;
+    }
+
+.card-body {
+    width: 300px;
+    height: 300px;
+}
 
 
