@@ -23,3 +23,22 @@ create table noticia(
     id_usuario int(11) not null,
 	foreign key (id_usuario) references usuario(id_usuario)
 );
+
+create table entrevista(
+	ID_ENTREVISTA int(11) auto_increment primary key,
+    TITULO_ENTREVISTA varchar(100) not null,
+    LINK_ENTREVISTA varchar(45) not null,
+	IMG_ENTREVISTA varchar(100) not null,
+    ID_USUARIO int(11),
+    foreign key (id_usuario) references usuario(id_usuario)
+);
+
+create table comentario(
+	ID_COMENTARIO int(11) primary key auto_increment,
+    CONTEUDO_COMENTARIO varchar(250),
+    ID_USUARIO int(11),
+    ID_NOTICIA int(11),
+    ID_ENTREVISTA int(11),
+	foreign key (id_usuario) references usuario(id_usuario),
+	foreign key (id_noticia) references noticia(id_noticia)
+);
