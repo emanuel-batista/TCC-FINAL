@@ -1,0 +1,17 @@
+<!-- head do site -->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- incluir dashboard_functions -->
+        <?php require_once(ROOT_PATH . '/admin/dashboard_functions.php'); ?>
+        <title>AP!TA - O melhor PORTAL</title>
+    </head>
+    <body>
+        //criar  
+        
+
+    </body>
+</html>

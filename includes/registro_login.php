@@ -82,7 +82,7 @@
 				$_SESSION['user'] = getUserById($reg_user_id); 
 
 				// if user is admin, redirect to admin area
-				if ( in_array($_SESSION['user']['role'], ["Admin", "Author"])) {
+				if ( in_array($_SESSION['username']['role'], ["Admin", "Author"])) {
 					$_SESSION['message'] = "You are now logged in";
 					// redirect to admin area
 					header('location: ' . BASE_URL . '/admin/dashboard.php');

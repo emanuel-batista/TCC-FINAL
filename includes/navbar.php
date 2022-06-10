@@ -9,10 +9,10 @@
                 <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
                     Login
                 </button>
-                <form class="dropdown-menu p-4" action="login.php" method="$_POST">
+                <form class="dropdown-menu p-4" action="../includes/login.php" method="$_POST">
                     <div class="mb-3">
                     <label for="exampleDropdownFormEmail2" class="form-label" name='username'>Email address</label>
-                    <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+                    <input type="text" class="form-control">
                     </div>
                     <div class="mb-3">
                     <label for="exampleDropdownFormPassword2" class="form-label" name='password'>Password</label>
