@@ -57,7 +57,7 @@
 }
 
 .ccol-md-8 {
-    position: absolute;
+    position: relative;
     right: 0px;
     display: flex;
     align-items: center;
