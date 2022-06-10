@@ -18,15 +18,15 @@
     <?php $posts = getPublishedPosts(); ?>    
 
     
-  <div class="card mb-3" style="max-width: 540px;"> <!-- card carrossel -->
+  <div class="card mb-3" style="auto;"> <!-- card carrossel -->
   <div class="row g-0">
-    <div class="col-md-4">
-      <img class="static/ images" src = "neymar.jpg"  alt="">
+    <div class="col-md-4" style="auto;">
+      <img class="static-images" src="../static/images/neymar.jpg"  alt="">
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h4 class="card-title">Neymar sonega impostos</h4>
+        <p class="card-text">Neymarzinho e Neymar sonegam mais impostos que a Shakira.</p>
         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       </div>
     </div>

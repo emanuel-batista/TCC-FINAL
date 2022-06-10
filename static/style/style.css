@@ -56,19 +56,23 @@
     margin-left: 10px;
 }
 
-.ccol-md-8 {
-    position: relative;
-    right: 0px;
-    display: flex;
+.col-md-8 {
     align-items: center;
-    height: 100%;
-    padding-right: 10rem;
-    margin-left: 10px;
-    }
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-right: 200px;
+    margin-left: 80px;
+  }
 
 .card-body {
-    width: 300px;
-    height: 300px;
+    width: 200%;
+    height: 70%;
 }
 
+.static-images {
+    margin: 25px 50px 75px 100px;
+    width: 100%;
+    height: 70%;
+
+}
 
