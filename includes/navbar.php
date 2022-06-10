@@ -7,15 +7,15 @@
             <a href="#" class='icon'><img src="../static/images/LOGIN.svg" alt="HOME" id='icon'></a>
             <div class="dropdown">
                 <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
-                    Dropdown form
+                    Login
                 </button>
-                <form class="dropdown-menu p-4">
+                <form class="dropdown-menu p-4" action="login.php" method="$_POST">
                     <div class="mb-3">
-                    <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+                    <label for="exampleDropdownFormEmail2" class="form-label" name='username'>Email address</label>
                     <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
                     </div>
                     <div class="mb-3">
-                    <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
+                    <label for="exampleDropdownFormPassword2" class="form-label" name='password'>Password</label>
                     <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
                     </div>
                     <div class="mb-3">
@@ -26,7 +26,8 @@
                         </label>
                     </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Sign in</button>
+                    <button type="submit" class="btn btn-primary" name="login_btn">Sign in</button>
+                    <a href="register.php">REGISTRE</a>
                 </form>
             </div>
         </div>  

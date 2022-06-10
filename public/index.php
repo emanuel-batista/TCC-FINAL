@@ -17,12 +17,11 @@
     <?php require_once(ROOT_PATH . '/public_functions.php') ?>
     <?php $posts = getPublishedPosts(); ?>    
 
-<<<<<<< HEAD
     
     <div class="card mb-3" style="max-width: 540px;"> <!-- card -->
   <div class="row g-0">
     <div class="col-md-4">
-      <img src=/static/images/"neymar.jpg" class="img-fluid rounded-start" alt="...">
+      <img src="/static/images/neymar.jpg" class="img-fluid rounded-start" alt="...">
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -32,13 +31,9 @@
       </div>
     </div>
   </div>
-</div>
+</div>      
 
-=======
-    <!-- oiiii -->
 
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
->>>>>>> 1f6c1b98e58b059d335e100f87163af246ddc879
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
