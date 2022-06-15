@@ -27,7 +27,7 @@
                     </div>
                     </div>
                     <button type="submit" class="btn btn-primary" name="login_btn">Sign in</button>
-                    <a href="register.php">REGISTRE</a>
+                    <a href="register.php">Register</a>
                 </form>
             </div>
         </div>  
