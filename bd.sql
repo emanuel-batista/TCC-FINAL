@@ -21,7 +21,9 @@ create table noticia(
     PUBLICADO_NOTICIA boolean,
     created_at timestamp,
     id_usuario int(11) not null,
-	foreign key (id_usuario) references usuario(id_usuario)
+	foreign key (id_usuario) references usuario(id_usuario),
+    nome_usuario varchar(60) not null,
+	foreign key (nome_usuario) references usuario(nome)
 );
 
 create table entrevista(
@@ -42,3 +44,7 @@ create table comentario(
 	foreign key (id_usuario) references usuario(id_usuario),
 	foreign key (id_noticia) references noticia(id_noticia)
 );
+
+drop database tccdasgostosas;
+/* ALTERAÇÃO DA TABELA NOTICIA */
+
