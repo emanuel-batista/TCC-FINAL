@@ -2,7 +2,7 @@ create database tccdasgostosas;
 use tccdasgostosas;
 
 create table usuario(
-	ID_USUARIO int not null auto_increment primary key,
+	ID_USUARIO int(11) not null auto_increment primary key,
 	NOME varchar(60) not null,
     USERNAME varchar(15) unique,
     SENHA varchar(15) not null,
@@ -21,9 +21,7 @@ create table noticia(
     PUBLICADO_NOTICIA boolean,
     created_at timestamp,
     id_usuario int(11) not null,
-	foreign key (id_usuario) references usuario(id_usuario),
-    nome_usuario varchar(60) not null,
-	foreign key (nome_usuario) references usuario(nome)
+	foreign key (id_usuario) references usuario(id_usuario)
 );
 
 create table entrevista(
@@ -44,7 +42,4 @@ create table comentario(
 	foreign key (id_usuario) references usuario(id_usuario),
 	foreign key (id_noticia) references noticia(id_noticia)
 );
-
-drop database tccdasgostosas;
-/* ALTERAÇÃO DA TABELA NOTICIA */
 
