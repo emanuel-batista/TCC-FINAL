@@ -14,6 +14,7 @@ $idusuario = '1';
 //função inserts
 function insert($titulo, $conteudo, $categoria, $img, $publicado, $idusuario) {
     global $conn;
+    echo $titulo . $conteudo . $categoria;
     $sql = "INSERT INTO noticia(titulo_noticia, conteudo_noticia, categoria_noticia, img_noticia, publicado_noticia, id_usuario) 
     VALUES ('$titulo', '$conteudo', '$categoria', '$img', '$publicado', '$idusuario')";
     $result = mysqli_query($conn, $sql);
