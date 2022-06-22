@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
-<body>
+<body style="background-color:#DAA520 ;">
 
     <?php require_once(ROOT_PATH . '/navbar.php'); ?> 
 
@@ -19,20 +19,49 @@
     <?php $posts = getPublishedPosts(); ?>    
 
 
-  <div class="card-mb-3" style="auto;"> <!-- card carrossel -->
-  <div class="row g-0">
-    <div class="col-md-4" style="auto;">
-      <img class="static-images" src="../static/images/neymar.jpg"  style= "display:inline-block alt="">
+
+
+
+    <div id="carousel" class="carousel" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000" >
+      <img src="../TCC-FINAL/TCC-FINAL/static/images/gabigol.jpg"" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Neymar sonegador de impostos</h5>
+        <p>Neymarzinho sonegador de impostos</p>
+      </div>
     </div>
-    <div class="col-md-8">
-      <div class="card-body style= "display:inline-block;">
-        <h4 class="card-title style= "display:inline-block;">Neymar sonega impostos</h4>
-        <p class="card-text style= "display:inline-block;">Neymarzinho e Neymar sonegam mais impostos que a Shakira.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="../TCC-FINAL/TCC-FINAL/static/images/gabigol.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Gabigol virou gente?</h5>
+        <p>Não.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Jô engravidou quem hoje?</h5>
+        <p>Sim, a Joelma.</p>
       </div>
     </div>
   </div>
-</div>      
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
 
 
 
