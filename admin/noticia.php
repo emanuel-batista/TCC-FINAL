@@ -61,8 +61,53 @@
                     </ul>
                 </div>
             </div>
+            <div class="card" style="width: 170vh;">
+            <button id="add__new__list" type="button" class="btn btn-success position-absolute" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fas fa-plus"></i> Add a new List</button>
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">List Name</th>
+                    <th scope="col">Deadline</th>
+                    <th scope="col">Edit List </th>
+                    <th scope="col">list info</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>
+                        <a class="btn btn-sm btn-primary" href="#"><i class="far fa-edit"></i> edit</a>
+                        <a class="btn btn-sm btn-danger" href="#"><i class="fas fa-trash-alt"></i> delete</a>    
+                    </td>
+                    <td><a class="btn btn-sm btn-info" href="#"><i class="fas fa-info-circle"></i> Details</a> </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>
+                        <a class="btn btn-sm btn-primary" href="#"><i class="far fa-edit"></i> edit</a>
+                        <a class="btn btn-sm btn-danger" href="#"><i class="fas fa-trash-alt"></i> delete</a>    
+                    </td>
+                    <td><a class="btn btn-sm btn-info" href="#"><i class="fas fa-info-circle"></i> Details</a> </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>       
+                        <a class="btn btn-sm btn-primary" href="#"><i class="far fa-edit"></i> edit</a>
+                        <a class="btn btn-sm btn-danger" href="#"><i class="fas fa-trash-alt"></i> delete</a> 
+                    </td>
+                    <td><a class="btn btn-sm btn-info" href="#"><i class="fas fa-info-circle"></i> Details</a> </td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
             <!-- form de inserção de post  -->
-            <div class="lado-direito-admin" style="width: 100vh; padding: 5vh;">
+            <!-- <div class="lado-direito-admin" style="width: 100vh; padding: 5vh;">
                 <form action="criarnoticia.php" method="post">
                     <div class="form-group">
                         <label for="titulo">Título</label>
@@ -79,7 +124,7 @@
                     <button type="submit">Enviar</button>
                     
                 </form>
-            </div>
+            </div> -->
         </div>
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
