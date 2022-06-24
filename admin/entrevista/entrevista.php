@@ -14,12 +14,12 @@
             <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 280px; height: 100vh;" id="sidebar-admin">
                 <a href="/" class="justify-items-center">
                 <!-- <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg> -->
-                <img src="../static/images/apita.svg" alt="logo" class="img-fluid" width="50px" height="50px">
+                <img src="../../static/images/apita.svg" alt="logo" class="img-fluid" width="50px" height="50px">
                 </a>
                 <hr>
                 <ul class="nav nav-pills flex-column mb-auto">
                     <li class="nav-item">
-                        <a href="noticia.php" class="nav-link link-dark" aria-current="page">
+                        <a href="../noticia/noticia.php" class="nav-link link-dark" aria-current="page">
                         <!-- <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg> -->
                         Criar Notícia
                         </a>
@@ -32,7 +32,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="usuario.php" class="nav-link link-dark">
+                        <a href="../usuario/usuario.php" class="nav-link link-dark">
                         Usuários
                         </a>
                     </li>

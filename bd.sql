@@ -43,3 +43,5 @@ create table comentario(
 	foreign key (id_noticia) references noticia(id_noticia)
 );
 
+insert into usuario(nome, username, senha, ranking, foto, created_at) values('admin', 'admin', 'admin', 0, 'admin.jpg', now());
+insert into noticia(titulo_noticia, conteudo_noticia, img_noticia, categoria_noticia, publicado_noticia, created_at, id_usuario) values('Noticia 1', 'Conteudo da noticia 1', 'noticia1.jpg', 'noticia', 1, now(), 1);
